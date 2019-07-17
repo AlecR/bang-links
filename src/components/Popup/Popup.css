@@ -1,0 +1,52 @@
+.popup__wrapper {
+  width: 300px;
+}
+
+.popup__title {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.popup__label {
+  text-align: center;
+  width: 100%;
+}
+
+.popup__alert-wrapper {
+  position: absolute;
+  left: 50%;
+  width: 55%;
+  top:10px;
+}
+
+.popup__alert {
+  position: relative;
+  left: -50%;
+  text-align: center;
+  animation: fade 3.5s linear;
+}
+
+@keyframes fade {
+  0%   {opacity: 0 }
+  25%   {opacity: 1 }
+  75%  {opacity: 1 }
+  100% {opacity: 0 }
+}
+
+.popup__add-link-button {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.popup__content-wrapper {
+  margin: 0 10px 10px 10px;
+}
+
+.popup__manage-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}

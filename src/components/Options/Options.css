@@ -1,0 +1,53 @@
+.options__wrapper {
+  margin: 10px;
+}
+
+.options__suggest-button {
+  margin-left: 10px;
+}
+
+.options__shortcut-table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.options__shortcut-table-button-column {
+  width: 150px;
+  text-align: right;
+}
+
+.options__modal-title {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.options__modal-add-button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.options__edit-button {
+  margin-right: 10px;
+}
+
+.options__alert-wrapper {
+  position: absolute;
+  left: 50%;
+  width: auto;
+  top:10px;
+}
+
+.options__alert {
+  position: relative;
+  left: -50%;
+  animation: fade 3.5s linear;
+}
+
+@keyframes fade {
+  0%   {opacity: 0 }
+  25%   {opacity: 1 }
+  75%  {opacity: 1 }
+  100% {opacity: 0 }
+}

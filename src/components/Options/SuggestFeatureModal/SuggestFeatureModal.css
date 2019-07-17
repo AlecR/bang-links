@@ -1,0 +1,10 @@
+.suggest-feature-modal__modal-title {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.suggest-feature-modal__subtitle {
+  text-align: center;
+}
